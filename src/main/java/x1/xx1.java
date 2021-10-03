@@ -1,13 +1,16 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Ler dois valores inteiros para as variáveis A e B, efetuar a troca dos
+ * valores de modo que a variável A passe a possuir o valor da variável B, e a
+ * variável B passe a possuir o valor da variável A. Apresentar os valores
+ * trocados.
  */
+
 package x1;
 
-/**
+/*
  *
- * @author danie
+ *
+ * @author daniel
  */
 
 import java.util.Scanner;
@@ -21,11 +24,11 @@ public class xx1 {
         a = input.nextInt();
         System.out.println("Insira o valor de B: ");
         b = input.nextInt();
-        System.out.println("\n\nValor inicial de B:"+b+" , Valor inicial de A:"+a);
+        System.out.println("\n\nValor inicial de A:"+a+" , Valor inicial de B:"+b);
         arm = b;
         b=a;
         a = arm;
-        System.out.println("\n\nValor final de B:"+b+" , Valor final de A:"+a);
+        System.out.println("\n\nValor final de A:"+a+" , Valor final de B:"+b);
         
         
     }
